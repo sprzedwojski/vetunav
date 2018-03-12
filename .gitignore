@@ -28,3 +28,6 @@ gradle/
 out/
 gradlew
 gradlew.bat
+
+### Frontend ###
+node_modules/

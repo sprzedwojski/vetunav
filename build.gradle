@@ -30,6 +30,6 @@ dependencies {
     compile('com.fasterxml.jackson.dataformat:jackson-dataformat-xml:2.9.4')
     compile('org.springframework.cloud:spring-cloud-contract-wiremock:1.2.3.RELEASE')
     testCompile('org.springframework.boot:spring-boot-starter-test')
-    testCompile('com.github.tomakehurst:wiremock:2.15.0', ext: 'pom')
+    testCompile('com.github.tomakehurst:wiremock:2.15.0')
     runtime('org.springframework.boot:spring-boot-devtools')
 }
