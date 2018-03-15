@@ -10,6 +10,10 @@ class MapComponent extends React.Component {
         }
     }
 
+    componentWillReceiveProps(nextProps) {
+        this.setState({activeStation: nextProps.activeStation})
+    }
+    
     toggleOpen(stationName) {
         if(stationName === this.state.activeStation) {
             this.setState({activeStation: ''})

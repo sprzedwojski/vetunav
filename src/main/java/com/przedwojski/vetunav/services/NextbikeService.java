@@ -33,7 +33,6 @@ public class NextbikeService {
                 .map(City::getPlaces)
                 .flatMap(Collection::stream)
                 .map(this::mapToStation)
-                .limit(1)
                 .collect(Collectors.toList());
     }
 
